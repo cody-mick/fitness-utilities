@@ -1,0 +1,9 @@
+.input-container {
+	@include flex(row, nowrap, center, center);
+
+	& > .input {
+		border: 2px solid gray;
+		border-radius: 10px;
+		padding: 5px;
+	}
+}

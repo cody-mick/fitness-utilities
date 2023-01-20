@@ -1,10 +1,12 @@
 import React from "react";
 
-export default function Input({ inputType }: any) {
+export default function Input({ inputType, inputId, labelText, value }: any) {
 	return (
 		<div className="input-container">
-			<label>Enter Food</label>
-			<input className="input" type={inputType} />
+			<label>
+				{labelText}
+				<input id={inputId} type={inputType} value={value} />
+			</label>
 		</div>
 	);
 }

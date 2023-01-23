@@ -67,7 +67,7 @@ export default function CalorieCalculator() {
 			/>
 			<div className="bmr-container">
 				<p className="bmr">
-					BMR: {gender === "male" ? bmrMale : bmrFemale}
+					BMR: {gender === "male" ? bmrMale : bmrFemale} cal/day
 				</p>
 			</div>
 		</div>
